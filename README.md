@@ -16,4 +16,4 @@ Thanks for checking my solution
 ### Links
 
 - Live Site URL: [click!](https://kacperkwinta.github.io/3-column-preview-card-component/)
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Challenge site: [click!](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
