@@ -4,16 +4,16 @@
 
 ## Welcome! 👋
 
-Thanks for checking my solution
+Thanks for checking my solution 😎
 
-### Built with
+### Built with 💻
 
 - Semantic HTML5 markup
 - Flexbox
 - Sass
 - Media-queries
 
-### Links
+### Links 🌐
 
 - Live Site URL: [click!](https://kacperkwinta.github.io/3-column-preview-card-component/)
 - Frontend Mentor challenge site: [click!](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
