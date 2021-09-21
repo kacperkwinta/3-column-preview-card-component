@@ -17,20 +17,23 @@ html {
 
 body {
   background: $very-light-gray;
+  margin: 0;
 }
 
 main {
+  height: 100vh;
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
+  align-items: center;
 }
 
-@media (max-width: 716px) {
+@media (max-width: 990px) {
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    height: auto;
+    margin: 10px 0;
   }
 }
 
@@ -97,7 +100,7 @@ main {
   border-top-left-radius: 10px;
 }
 
-@media (max-width: 716px) {
+@media (max-width: 990px) {
   .orange {
     border-bottom-left-radius: 0;
     border-top-right-radius: 10px;
@@ -114,7 +117,7 @@ main {
   border-bottom-right-radius: 10px;
 }
 
-@media (max-width: 716px) {
+@media (max-width: 990px) {
   .darker-turquoise {
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0;
@@ -126,10 +129,10 @@ footer {
   bottom: 0;
   right: 0;
   left: 0;
-  margin: 1rem;
+  margin-bottom: 10px;
 }
 
-@media (max-width: 716px) {
+@media (max-width: 990px) {
   footer {
     position: static;
     display: block;
