@@ -15,5 +15,5 @@ Thanks for checking my solution
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://kacperkwinta.github.io/3-column-preview-card-component/)
+- Live Site URL: [click!](https://kacperkwinta.github.io/3-column-preview-card-component/)
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
