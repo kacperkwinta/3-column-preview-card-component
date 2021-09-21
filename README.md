@@ -15,6 +15,10 @@ Thanks for checking my solution 😎
 - Sass
 - Media-queries
 
+### What i learned
+
+- For the first time I used rem instead of px
+
 ### Links 🌐
 
 - Live Site URL: [click!](https://kacperkwinta.github.io/3-column-preview-card-component/)
