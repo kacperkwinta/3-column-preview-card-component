@@ -11,6 +11,127 @@ $transparent-white: hsla(0, 0%, 100%, 0.75);
 //bg, headings, buttons
 $very-light-gray: hsl(0, 0%, 95%);
 
-body {
+html {
   font-size: 15px;
+}
+
+body {
+  background: $very-light-gray;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+@media (max-width: 716px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+.column {
+  padding: 3rem;
+  width: 210px;
+}
+
+.column-header {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: $very-light-gray;
+  font-size: 2.5rem;
+}
+
+.column-paragraph {
+  font-family: "Lexend Deca", sans-serif;
+  color: $transparent-white;
+  margin-bottom: 7rem;
+  line-height: 1.5;
+}
+
+.column-link {
+  text-decoration: none;
+  background: $very-light-gray;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.link-orange {
+  color: $bright-orange;
+
+  &:hover {
+    background: $bright-orange;
+    border: 2px solid white;
+    color: $very-light-gray;
+  }
+}
+
+.link-turquoise {
+  color: $dark-cyan;
+
+  &:hover {
+    background: $dark-cyan;
+    border: 2px solid white;
+    color: $very-light-gray;
+  }
+}
+
+.link-darker-turquoise {
+  color: $very-dark-cyan;
+
+  &:hover {
+    background: $very-dark-cyan;
+    border: 2px solid white;
+    color: $very-light-gray;
+  }
+}
+
+.orange {
+  background: $bright-orange;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+@media (max-width: 716px) {
+  .orange {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+  }
+}
+
+.turquoise {
+  background: $dark-cyan;
+}
+
+.darker-turquoise {
+  background: $very-dark-cyan;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 716px) {
+  .darker-turquoise {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 1rem;
+}
+
+@media (max-width: 716px) {
+  footer {
+    position: static;
+    display: block;
+  }
 }
