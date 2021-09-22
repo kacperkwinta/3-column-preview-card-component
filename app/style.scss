@@ -56,6 +56,12 @@ main {
   line-height: 1.5;
 }
 
+@media (max-width: 990px) {
+  .column-paragraph {
+    margin-bottom: 3rem;
+  }
+}
+
 .column-link {
   text-decoration: none;
   background: $very-light-gray;
