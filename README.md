@@ -14,6 +14,7 @@ Thanks for checking my solution 😎
 - Flexbox
 - Sass
 - Media-queries
+- BEM
 
 ### What i learned
 
