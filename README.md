@@ -22,5 +22,5 @@ Thanks for checking my solution 😎
 
 ### Links 🌐
 
-- Live Site URL: [click!](https://kacperkwinta.github.io/3-column-preview-card-component/)
+- Live Site URL 🔴: [click!](https://kacperkwinta.github.io/3-column-preview-card-component/)
 - Repo with other solutions: [click!](https://github.com/kacperkwinta/Frontend-Mentor)
