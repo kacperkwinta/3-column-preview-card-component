@@ -18,9 +18,10 @@ Thanks for checking my solution 😎
 
 ### What i learned
 
-- For the first time I used rem instead of px
+- For the first time I used rem instead of px 🎉
 
 ### Links 🌐
 
 - Live Site URL 🔴: [click!](https://kacperkwinta.github.io/3-column-preview-card-component/)
-- Repo with other solutions: [click!](https://github.com/kacperkwinta/Frontend-Mentor)
+- Repo with other challenges 📁: [click!](https://github.com/kacperkwinta/Frontend-Mentor)
+- My Frontend Mentor profile 💻: [click!](https://www.frontendmentor.io/profile/kacperkwinta)
