@@ -52,7 +52,6 @@ main {
 .column-paragraph {
   font-family: "Lexend Deca", sans-serif;
   color: $transparent-white;
-  margin-bottom: 7rem;
   line-height: 1.8;
 }
 
@@ -63,6 +62,8 @@ main {
 }
 
 .column-link {
+  display: inline-block;
+  margin-top: 4rem;
   text-decoration: none;
   background: $very-light-gray;
   padding: 1rem 2rem;
