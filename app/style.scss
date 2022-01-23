@@ -70,7 +70,7 @@ main {
   font-family: "Lexend Deca", sans-serif;
 }
 
-.link-orange {
+.link--orange {
   color: $bright-orange;
 
   &:hover {
@@ -80,7 +80,7 @@ main {
   }
 }
 
-.link-turquoise {
+.link--turquoise {
   color: $dark-cyan;
 
   &:hover {
@@ -90,7 +90,7 @@ main {
   }
 }
 
-.link-darker-turquoise {
+.link--darker-turquoise {
   color: $very-dark-cyan;
 
   &:hover {
@@ -100,31 +100,31 @@ main {
   }
 }
 
-.orange {
+.column--orange {
   background: $bright-orange;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
 
 @media (max-width: 990px) {
-  .orange {
+  .column--orange {
     border-bottom-left-radius: 0;
     border-top-right-radius: 10px;
   }
 }
 
-.turquoise {
+.column--turquoise {
   background: $dark-cyan;
 }
 
-.darker-turquoise {
+.column--darker-turquoise {
   background: $very-dark-cyan;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 @media (max-width: 990px) {
-  .darker-turquoise {
+  .column--darker-turquoise {
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0;
   }
