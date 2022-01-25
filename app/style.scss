@@ -130,17 +130,23 @@ main {
   }
 }
 
-footer {
+.attribution {
+  text-align: center;
   position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
   margin-bottom: 10px;
+  font-size: 11px;
 }
 
 @media (max-width: 990px) {
-  footer {
+  .attribution {
     position: static;
     display: block;
   }
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
