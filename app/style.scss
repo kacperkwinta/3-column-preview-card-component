@@ -78,11 +78,11 @@ body {
   }
 }
 
-.column-image {
+.column__image {
   width: 7rem;
 }
 
-.column-header {
+.column__header {
   color: $very-light-gray;
   font-size: 4rem;
   font-weight: 700;
@@ -90,7 +90,7 @@ body {
   font-family: "Big Shoulders Display", cursive;
 }
 
-.column-paragraph {
+.column__paragraph {
   font-size: 1.5rem;
   font-family: "Lexend Deca", sans-serif;
   color: $paragraph;
@@ -100,12 +100,12 @@ body {
 }
 
 @media (max-width: 1040px) {
-  .column-paragraph {
+  .column__paragraph {
     margin-bottom: 4rem;
   }
 }
 
-.column-link {
+.column__link {
   display: inline-block;
   font-family: "Lexend Deca", sans-serif;
   padding: 1.3rem 2.5rem;
@@ -117,7 +117,7 @@ body {
   background: white;
 }
 
-.column-link:hover {
+.column__link:hover {
   color: white;
   border: 0.3rem solid white;
 }
